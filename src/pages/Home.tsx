@@ -1,27 +1,22 @@
 import { useMediaQuery } from "react-responsive";
 import "../CSS/style.css";
 import arrowDown from "../assets/icon-arrow-down.svg";
-import logo from "../assets/logo.svg";
 import logoFooter from "../assets/logo-footer.svg";
+import logo from "../assets/logo.svg";
 import NavLinkMobile from "../components/NavLinkMobile";
 import NavLinks from "../components/NavLinks";
 
-import egg from "../assets/desktop/image-transform.jpg";
 import glass from "../assets/desktop/image-stand-out.jpg";
+import egg from "../assets/desktop/image-transform.jpg";
 
 import emily from "../assets/image-emily.jpg";
-import thomas from "../assets/image-thomas.jpg";
 import jennie from "../assets/image-jennie.jpg";
+import thomas from "../assets/image-thomas.jpg";
 
+import ghif from "../assets/desktop/image-gallery-cone.jpg";
 import ghoty from "../assets/desktop/image-gallery-milkbottles.jpg";
 import prot from "../assets/desktop/image-gallery-orange.jpg";
 import ghand from "../assets/desktop/image-gallery-sugarcubes.jpg";
-import ghif from "../assets/desktop/image-gallery-cone.jpg";
-
-import instagram from "../assets/icon-instagram.svg";
-import facebook from "../assets/icon-facebook.svg";
-import pintrest from "../assets/icon-pinterest.svg";
-import twiter from "../assets/icon-twitter.svg";
 
 const Home = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
