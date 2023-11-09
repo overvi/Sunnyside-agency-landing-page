@@ -1,7 +1,7 @@
 :root {
     --Soft-red: hsl(7, 99%, 70%);
     --Yellow: hsl(51, 100%, 49%);
-    --Dark-desaturated-cyan /*(graphic design text)*/ : hsl(167, 40%, 24%);
+    --Dark-desaturated-cyan : hsl(167, 40%, 24%);
     --Dark-blue /*(photography text)*/: hsl(198, 62%, 26%);
 
     --Footer : #99D9C9;
@@ -21,6 +21,7 @@
     margin: 0;
     padding: 0;
 }
+
 
 a {
     text-decoration: none;
@@ -248,11 +249,7 @@ body {
 
 .albalo-header {
     background-image: url(../assets/desktop/image-graphic-design.jpg);
-    color: var(--Dark-moderate-cyan);
-}
-
-.albalo-header h1 {
-    color: var(--Dark-desaturated-cyan);
+    color: var(--Dark-blue)
 }
 
 .porteghal-header {
