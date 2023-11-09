@@ -100,21 +100,21 @@ body {
 .page-header {
     background: url(../assets/desktop/image-header.jpg) bottom;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 .page-header-heading {
-    margin-top: 1.8rem;
-    justify-content: center;
+
     color: #fff;
     flex-direction: column;
     align-items: center;
-    row-gap: 3rem;
-    font-size: 1.8rem;
+    row-gap: 1.7rem;
+    font-size: 1.7rem;
 }
 
 .page-header-heading h1 {
     font-weight: 900;
+
 }
 
 /* Nav Bar */
