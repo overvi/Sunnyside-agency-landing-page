@@ -32,7 +32,7 @@ const Home = () => {
             </nav>
           </div>
           <div className="page-header-heading uppercase flex letter-spacing">
-            <h1 className="ff-fraunces">We Are Creatives</h1>
+            <h1 className="ff-fraunces ">We Are Creatives</h1>
             <img src={arrowDown} alt="" />
           </div>
         </header>
@@ -51,7 +51,7 @@ const Home = () => {
                 learn More
               </a>
             </div>
-            <img src={egg} alt="" />
+            <img width="675px" src={egg} alt="" />
           </article>
           <article className="article flex article-flex">
             <div className="flow-content article-content-contain">
@@ -67,7 +67,7 @@ const Home = () => {
                 learn More
               </a>
             </div>
-            <img src={glass} alt="" />
+            <img width="675px" src={glass} alt="" />
           </article>
         </section>
 
@@ -136,7 +136,7 @@ const Home = () => {
           </div>
         </section>
 
-        <div className="flex footer-images">
+        <div className="footer-images">
           <img src={ghoty} alt="" />
           <img src={prot} alt="" />
           <img src={ghif} alt="" />
