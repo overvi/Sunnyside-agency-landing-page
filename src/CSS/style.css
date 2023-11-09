@@ -105,13 +105,15 @@ body {
 }
 
 .page-header-heading {
-    margin-top: 1.3rem;
-    justify-content: center;
     color: #fff;
     flex-direction: column;
     align-items: center;
     row-gap: 3rem;
-    font-size: 1.5em;
+    font-size: 1.7em;
+}
+
+.page-header-heading h1 {
+    font-weight: 900;
 }
 
 /* Nav Bar */
