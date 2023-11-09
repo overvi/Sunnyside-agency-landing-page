@@ -27,7 +27,7 @@ const Home = () => {
         <header className="page-header" style={{ position: "relative" }}>
           <div>
             <nav className="nav-bar flex ">
-              <img width="200px" src={logo} alt="" />
+              <img width="180px" src={logo} alt="" />
               {isMobile ? <NavLinkMobile /> : <NavLinks />}
             </nav>
           </div>
