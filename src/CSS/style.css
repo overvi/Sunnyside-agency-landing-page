@@ -98,10 +98,9 @@ body {
 /* Hero */ 
 
 .page-header {
-    background: url(../assets/desktop/image-header.jpg);
-    background-position: bottom;
+    background: url(../assets/desktop/image-header.jpg) bottom;
     background-size: cover;
-    height: 100vh;
+    min-height: 95vh;
 }
 
 .page-header-heading {
