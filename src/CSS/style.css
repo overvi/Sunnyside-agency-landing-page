@@ -174,6 +174,10 @@ body {
 }
 
 /* Articles */
+
+.article > * {
+    flex-basis: 50%;
+}
 .article-title {
     font-size: 3em;
     line-height: 1.1;
@@ -181,7 +185,8 @@ body {
 
 .article-content-contain {
     align-self: center;
-    padding-inline: 5rem;
+    padding-inline: 8rem;
+    --space : 3rem
 }
 
 .article:nth-child(even) .article-content-contain {

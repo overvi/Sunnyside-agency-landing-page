@@ -33,12 +33,12 @@ const Home = () => {
           </div>
           <div className="page-header-heading uppercase flex letter-spacing">
             <h1 className="ff-fraunces ">We Are Creatives</h1>
-            <img src={arrowDown} alt="" />
+            <img width="35px" src={arrowDown} alt="" />
           </div>
         </header>
         <section>
           <article className="article flex article-flex">
-            <div className="flow-content article-content-contain">
+            <div className="flow-content-large article-content-contain">
               <h1 className="article-title ff-fraunces">
                 Transform your brand
               </h1>
@@ -51,10 +51,12 @@ const Home = () => {
                 learn More
               </a>
             </div>
-            <img width="675px" src={egg} alt="" />
+            <div>
+              <img src={egg} alt="" />
+            </div>
           </article>
           <article className="article flex article-flex">
-            <div className="flow-content article-content-contain">
+            <div className="flow-content-large article-content-contain">
               <h1 className="article-title ff-fraunces">
                 Stand out to the right audience
               </h1>
@@ -67,7 +69,9 @@ const Home = () => {
                 learn More
               </a>
             </div>
-            <img width="675px" src={glass} alt="" />
+            <div>
+              <img src={glass} alt="" />
+            </div>
           </article>
         </section>
 
